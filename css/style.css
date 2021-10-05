@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+.container_uno{
+    background-color:aqua;
+    height: 100px;
+}
+.titolo{
+    display:inline-block;
+    line-height: 100px;
+}
+
+.container_uno img{
+    line-height: 100px;
+    height: 80px;
+}
+
+/* END HEADER */

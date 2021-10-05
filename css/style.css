@@ -77,6 +77,12 @@ hr{
 ul{
     list-style-type: none;
     margin-top: 2%;
+    
+}
+
+/* margine per ogni li */
+li{
+    margin-top: 2%;
 }
 
 /* cerechio green */
@@ -96,18 +102,34 @@ line-height: 20px;
 
 .special_botton{
     width: 100px;
-    height: 40px;
+    height: 30px;
     border-radius: 20px;
     display: inline-block;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
     color: white;
+    
 }
-
+/* botton speciali sezione 2 */
 .special_botton.editorial{
     background-color:#47adf1 ;
 }
-
-
+/* botton speciali sezione 3 */
+.goals{
+    background-color:#9c72e4 ;
+}
+.recruiting{
+    background-color:green;
+}
+.mobile{
+    background-color:orange;
+}
+/* botton speciali sezione 4 */
+.website{
+    background-color:#d863a1;
+}
+.sales{
+    background-color:#b0c926;
+}
 /* END MAIN */
 

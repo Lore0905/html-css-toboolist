@@ -7,6 +7,7 @@
 
 /* HEADER */
 
+/* container uno */
 .container_uno{
     background-color:aqua;
     height: 100px;
@@ -14,11 +15,99 @@
 .titolo{
     display:inline-block;
     line-height: 100px;
+    vertical-align: middle;
 }
-
+/* logo */
 .container_uno img{
     line-height: 100px;
     height: 80px;
+    display:inline-block;
+    vertical-align: middle;
 }
 
 /* END HEADER */
+
+/* MAIN */
+
+/* SEZIONE 1 */
+
+/* conitainer due */
+
+.container_due{
+    width: 80%;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+/* bottoms general*/
+
+.button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: 2%;
+}
+
+.button.addtask {
+background-color: #47adf1;
+border: 1px solid #47adf1;
+}
+.button.addsection{
+    width:130px;
+    color: #cfd4d8;
+    border: 1px solid #cfd4d8;
+}
+
+hr{
+    color:#cfd4d8;
+}
+/* SEZIONE 2 */
+
+/* margine per ogni sezione */
+.parte{
+    margin-top: 5%;
+}
+
+/* elimino i pallini dalle ul */
+ul{
+    list-style-type: none;
+    margin-top: 2%;
+}
+
+/* cerechio green */
+.cerchio{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.title_section{
+vertical-align: middle;
+line-height: 20px;
+}
+/*  special botton general  */
+
+.special_botton{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+.special_botton.editorial{
+    background-color:#47adf1 ;
+}
+
+
+/* END MAIN */
+

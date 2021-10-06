@@ -12,18 +12,16 @@ body{
 /* container uno */
 .container_uno{
     background-color:white;
-    height: 100px;
+    padding:10px 20px;
 }
 .titolo{
     display:inline-block;
-    line-height: 100px;
     vertical-align: middle;
+    font-size:50px;
 }
 /* logo */
 .container_uno img{
-    line-height: 100px;
-    height: 80px;
-    display:inline-block;
+    height: 70px;
     vertical-align: middle;
 }
 
@@ -39,17 +37,15 @@ body{
     width: 80%;
     background-color: white;
     margin: auto;
-    margin-top: 50px;
-    padding-left: 30px;
+    padding:15px 30px;
+    margin-top: 60px;
 }
 .container_tre{
     width: 80%;
     background-color: white;
     margin: auto;
-    margin-top: 2px;
     padding-left: 30px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    margin-top: 2px;
 }
 
 /* bottoms general*/
@@ -61,8 +57,8 @@ body{
     display: inline-block;
     text-align: center;
     line-height: 50px;
-    margin: 2%;
 }
+/* special botton */
 
 .button.addtask {
 background-color: #47adf1;
@@ -74,27 +70,16 @@ border: 1px solid #47adf1;
     border: 1px solid #cfd4d8;
 }
 
-
-
 /* SEZIONE 2 */
 
 /* margine per ogni sezione */
 .parte{
-    margin-top: 5%;
-}
-.parte.uno{
-    margin-top:2%;
-}
-/* margine tra il bootom e il new task */
-#margin_top_bottom{
-    margin-top: 1%;
+    padding:20px;
 }
 
 /* elimino i pallini dalle ul */
 ul{
     list-style-type: none;
-    margin-top: 2%;
-    
 }
 
 /* margine per ogni li */
@@ -127,7 +112,6 @@ li{
 }
 .title_section{
 vertical-align: middle;
-line-height: 20px;
 }
 /*  special botton general  */
 
